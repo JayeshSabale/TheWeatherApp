@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./public/CSS/bootstrap.css" />
+    <style>
+        body {
+            background-image: url("public/Images/Wallpaper.png");
+        }
+
+        footer {
+           position: fixed;
+           bottom: 0%;
+           left: 45%;
+        }
+
+        .formMargin {
+            padding: 7px;
+        }
+    </style>
+</head>
+<body >
+    
+ 
+    <!-- <form action="/" method="post">
+    <label for="cityInput">City Name: </label>
+    <input id="cityInput" type="text" name="cityName">
+    <button type="submit">Go</button>
+    </form> -->
+
+    
+<div class="card text-center ">
+    <div class="card-header">
+            <img src="public/Images/logo2.jpg" alt="" width="150" height="120" class="d-inline-block align-text-top">
+   
+    </div>
+ <marquee>
+        <h2  class="text-muted fw-bold text-opacity-75">Welcome to Weather App</h2>
+        </marquee>
+    </div>
+  
+</div>
+
+<div class="position-absolute top-50 start-50 translate-middle ">
+    <form  action="/" method="post" class="row g-3 border border-success rounded-2 formMargin">
+
+        <div class="col-auto px-2">
+            <label for="cityInput">City Name: </label>
+            <input class=" text-secondary " id="cityInput" type="text" name="cityName">
+           
+        
+            <button type="submit" class="btn btn-outline-success mb-1">Show Whether</button>
+          
+        </div>
+        
+    </form>
+   
+    </div>
+    <footer>Copyright @ Jayesh Sabale</footer>
+  
+</body>
+</html>
+
+
